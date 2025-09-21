@@ -82,7 +82,7 @@ body {
   .message {
     font-size: 6vmin;
     padding: 3vmin;
-    bottom: 12vmin; /* Ajusta la posición del texto */
+    bottom: 25vmin; /* Ajusta la posición del texto */
     width: 90%;
     left: 50%;
     transform: translateX(-50%);
@@ -1402,4 +1402,5 @@ body {
   }
 
 }
+
 
