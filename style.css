@@ -68,16 +68,17 @@ body {
 
 @media (max-width: 768px) {
   .flowers {
-    /* Ajuste más grande para móviles */
-    transform: scale(1.1);
+    /* Centrar verticalmente en la pantalla */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+  .flower {
+    /* Mueve las flores hacia arriba, pero dentro del contenedor */
     bottom: -10vmin;
   }
-  
-  .flower {
-    /* Mueve las flores hacia arriba */
-    bottom: 15vmin;
-  }
-  
+
   .message {
     /* Ajusta la posición y el tamaño del mensaje */
     font-size: 6vmin;
@@ -1400,4 +1401,5 @@ body {
   50% {
     opacity: 1;
   }
+
 }
